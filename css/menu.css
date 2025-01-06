@@ -1,0 +1,62 @@
+/* Menu section */
+.menu {
+    flex: 3;
+  }
+  
+  .menu h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for desserts */
+
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 20px; /* Espace entre les cartes */
+    padding: 20px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-info h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .card-info p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .card-info button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .card-info button:hover {
+    background-color: #0056b3;
+  }
+  
